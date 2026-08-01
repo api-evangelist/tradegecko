@@ -1,0 +1,47 @@
+generated: '2026-07-21'
+method: searched
+source: https://rubygems.org/api/v1/search.json?query=tradegecko
+description: >-
+  First-party TradeGecko client libraries verified against the public package
+  registries. TradeGecko was acquired by Intuit in August 2020, rebranded as
+  QuickBooks Commerce, and the standalone platform was subsequently
+  discontinued; api.tradegecko.com no longer resolves (NXDOMAIN, checked
+  2026-07-21). These libraries remain published on their registries but target
+  a retired API. The tradegecko GitHub organization still exists but has no
+  public repositories, so gem homepages pointing at github.com/tradegecko/*
+  return 404.
+packages:
+  - language: ruby
+    registry: rubygems
+    name: gecko-ruby
+    url: https://rubygems.org/gems/gecko-ruby
+    install: gem install gecko-ruby
+    official: true
+    latest_version: 0.12.3
+    last_release: '2021-12-22'
+    author: Bradley Priest
+    summary: A Ruby interface to the TradeGecko API.
+    homepage: https://github.com/tradegecko/gecko/
+    license: MIT
+    downloads: 125920
+    status: api-retired
+  - language: ruby
+    registry: rubygems
+    name: omniauth-tradegecko
+    url: https://rubygems.org/gems/omniauth-tradegecko
+    install: gem install omniauth-tradegecko
+    official: true
+    latest_version: 1.0.0
+    author: Bradley Priest
+    summary: Omniauth strategy for TradeGecko
+    homepage: https://github.com/tradegecko/omniauth-tradegecko
+    downloads: 23927
+    status: api-retired
+npm_scope:
+  scope: '@tradegecko'
+  url: https://www.npmjs.com/search?q=%40tradegecko
+  note: >-
+    The @tradegecko npm scope holds org-published internal frontend tooling
+    (eslint configs, fonts, Ember/warehousing UI libraries), not API client
+    SDKs. Recorded for completeness; none are API clients, so no SDKs pointer
+    is emitted.
