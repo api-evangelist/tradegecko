@@ -23,12 +23,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tradegecko.png
 name: Tradegecko
-description: TradeGecko was a Singapore-based cloud inventory and order management platform
-  for SMEs, wholesalers, and online retailers, launched in 2013 with integrations into
-  Shopify, WooCommerce, and Xero. Intuit acquired TradeGecko in August 2020 and rebranded
-  it QuickBooks Commerce; the standalone platform and its public REST API were subsequently
-  discontinued. Its API hosts no longer resolve and tradegecko.com is no longer operated
-  by the company, though first-party Ruby client libraries remain published on RubyGems.
+description: TradeGecko was a Singapore-based cloud inventory and order management platform for SMEs,
+  wholesalers, and online retailers, launched in 2013 with integrations into Shopify, WooCommerce, and
+  Xero. Intuit acquired TradeGecko in August 2020 and rebranded it QuickBooks Commerce; the standalone
+  platform and its public REST API were subsequently discontinued. Its API hosts no longer resolve and
+  tradegecko.com is no longer operated by the company, though first-party Ruby client libraries remain
+  published on RubyGems.
 url: https://raw.githubusercontent.com/api-evangelist/tradegecko/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -38,7 +38,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 tags:
 - Company
 - Inventory
@@ -62,8 +62,8 @@ maintainers:
 common:
 - type: Website
   url: https://tradegecko.com
-  x-note: Domain no longer operated by TradeGecko; as of 2026-07-21 it serves an unrelated
-    content site. Retained as the historical canonical domain.
+  x-note: Domain no longer operated by TradeGecko; as of 2026-07-21 it serves an unrelated content site.
+    Retained as the historical canonical domain.
 - type: GitHubOrganization
   url: https://github.com/tradegecko
   x-note: Organization still exists but has no public repositories.
@@ -76,3 +76,4 @@ x-enrichment:
   status: enriched
   artifacts_added: 2
   pass: local-v1
+x-status: defunct
